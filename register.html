@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>final Javascript</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css">
+
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="logo">
+        <div class="div-log">
+            <a href="login.html">تسجيل الدخول</a>
+            <a href="register.html">انشاء حساب</a>
+        </div>
+        
+        <div class="div-hidden" style="display: none;">
+            <p id="user" >Welcome:</p>
+            <div class="conter-list">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="number-produc">0</span>
+                <div class="list">
+                    <div class="view"><a href="cart.html">شاهد كل المنتجات</a> <a href="#" id="Clear-all">حذف الكل</a>
+                    </div>
+
+                </div>
+            </div>
+            <a href="login.html">تسجيل خروج</a>
+
+        </div>
+    </header>
+    <div class="form-container">
+        <h2>انشاء حساب</h2>
+        <form>
+            <label for="username">:اسم المستخدم</label>
+            <input type="text" id="username" name="username" required>
+            <label for="email">:البريد الالكتروني</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">:كلمة السر</label>
+            <input type="password" id="password" name="password" required>
+            <label for="confirm-password">:تاكيد كلمة السر</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+            <input type="button" value="انشاء حساب" id="sign_up">
+            <p>لدي حساب؟ <a href="login.html">:تسجيل الدخول</a></p>
+        </form>
+    </div>
+    <footer>
+
+        <h3>MO SalaH7</h3>
+        <p>فواكه وعصائر طازه</p>
+
+
+        <div>
+            <a
+                href="https://linktr.ee/mohamedalsheikh?fbclid=IwY2xjawUq6J8r5X3W4nY9ZxQ6z5g1k2j6J8r5X3W4nY9ZxQ6z"><i class="fa-brands fa-linktree"></i></a>
+            <a href="https://www.facebook.com/mohamedalsheikh7"><i class="fa-brands fa-facebook"></i></a>
+            <a
+                href="https://www.instagram.com/mohamedsalah.777/?fbclid=IwAR0g1k2j6J8r5X3W4nY9ZxQ6z5g1k2j6J8r5X3W4nY9ZxQ6z"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.youtube.com/@mohamedalsheikh7"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+
+        <p>© 2026 MO SalaH7</p>
+    </footer>
+    <script src="js/register.js"></script>
+    <script src="js/common.js"></script>
+</body>
+
+</html>
