@@ -56,6 +56,7 @@ function renderCart() {
                     </p>
 
                     <button onclick="removeProduct(${product.id})">
+                    <i class="fa-solid fa-trash-can"></i>
                         حذف المنتج
                     </button>
 
